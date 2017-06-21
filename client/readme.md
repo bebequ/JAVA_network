@@ -1,0 +1,21 @@
+
+# VEE Command
+-CNF port 0
+
+-RDG 0x44 0x60 
+-WRG 0x44 0x60 0xAC
+
+-RCA 3
+-RCF PGEN_RED
+-WCA 
+-WCF PGEN_RED 1
+
+-RPA 50 0xA6
+-RPF 50 LED_CON_R 
+-WPA 50 0xA6 0x1f
+-WPF 50 LED_CON_B 0x1f
+
+-RIO 2 3 
+-WIO 2 3 1
+
+
